@@ -1,6 +1,6 @@
 # Optimizing driving lists for the SU club tennis team
 
-For the Syracuse University Club tennis team, we organize driving lists for all practices and matches. In the past, we've manually assigned driving lists attempting to minimize the total distance traveled to practice. With the power of programming, this is something that we can calculate and optimize solely with driver start locations, passenger locations, and an end location (Drumlins Tennis Club). 
+For the Syracuse University Club tennis team, we organize driving lists for all practices and matches. In the past, we've manually assigned driving lists attempting to minimize the total distance traveled to practice. As one of the Captains during the 2024-2025 year, making driving lists is one of my many responsibilities. With the power of programming, this is something that we can calculate and optimize solely with driver start locations, passenger locations, and an end location (Drumlins Tennis Club). 
 
 With csv's for drivers that consists of: Name/Address/Spots (available spots in the car for passengers), and passengers that consists of: Name/Address, using the GeoPy library we can find the latitude and longitude coordinates of each possible pickup location for each possible combination of passengers. 
 
